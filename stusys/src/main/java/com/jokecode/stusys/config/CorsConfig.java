@@ -17,7 +17,7 @@ public class CorsConfig {
                         .allowedOrigins(
                             "http://localhost:5173",
                             "http://localhost:5174",
-                            "https://your-app.vercel.app"  // ← ប្តូរជា Vercel URL ពិតប្រាកដ
+                            "https://student-sys-react-spring.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
